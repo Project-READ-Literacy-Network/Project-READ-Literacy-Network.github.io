@@ -3,127 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/testing-fragments/directory/listings/libraries/</loc>
-    <lastmod>2021-03-15T12:29:39-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/testing-fragments/directory/listings/family/</loc>
-    <lastmod>2021-03-15T12:29:39-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/testing-fragments/directory/listings/online/</loc>
-    <lastmod>2021-03-15T12:29:39-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/testing-fragments/directory/listings/faq/</loc>
-    <lastmod>2021-03-15T12:29:39-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/testing-fragments/hero/</loc>
-    <lastmod>2021-03-15T12:29:39-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/testing-fragments/directory/listings/employment/</loc>
-    <lastmod>2021-03-15T12:29:39-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/testing-fragments/directory/listings/esl/</loc>
-    <lastmod>2021-03-15T12:29:39-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/testing-fragments/directory/listings/guide/</loc>
-    <lastmod>2021-03-15T12:29:39-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/testing-fragments/directory/listings/literacy/</loc>
-    <lastmod>2021-03-15T12:29:39-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/testing-fragments/sample-custom-fragment/</loc>
-    <lastmod>2021-03-15T12:29:39-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/thankyou/</loc>
     <lastmod>2021-03-15T12:29:39-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/about/funders/</loc>
-    <lastmod>2021-03-15T12:29:39-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/services/_index/</loc>
-    <lastmod>2021-03-15T12:29:39-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/testing-fragments/table/</loc>
-    <lastmod>2021-03-15T12:29:39-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/testing-fragments/form/</loc>
-    <lastmod>2021-03-15T12:29:39-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/testing-fragments/form2/</loc>
-    <lastmod>2021-03-15T12:29:39-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/testing-fragments/toc/emp/</loc>
-    <lastmod>2021-03-15T12:29:39-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/testing-fragments/toc/esl/</loc>
-    <lastmod>2021-03-15T12:29:39-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/testing-fragments/toc/fam/</loc>
-    <lastmod>2021-03-15T12:29:39-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/testing-fragments/toc/lib/</loc>
-    <lastmod>2021-03-15T12:29:39-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/testing-fragments/toc/lit/</loc>
-    <lastmod>2021-03-15T12:29:39-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/testing-fragments/toc/onl/</loc>
-    <lastmod>2021-03-15T12:29:39-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/testing-fragments/calendar/</loc>
-    <lastmod>2021-03-15T12:29:39-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/testing-fragments/</loc>
-    <lastmod>2021-03-15T12:29:39-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/testing-fragments/toc/</loc>
     <lastmod>2021-03-15T12:29:39-04:00</lastmod>
   </url>
   
@@ -140,16 +25,6 @@
   <url>
     <loc>/services/</loc>
     <lastmod>2021-03-06T10:46:27-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/testing-fragments/toc/services/</loc>
-    <lastmod>2021-03-15T12:29:39-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/testing-fragments/directory/</loc>
-    <lastmod>2021-03-15T12:29:39-04:00</lastmod>
   </url>
   
 </urlset>
