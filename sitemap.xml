@@ -8,11 +8,6 @@
   </url>
   
   <url>
-    <loc>/services/_index/</loc>
-    <lastmod>2021-03-15T12:29:39-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/</loc>
     <lastmod>2021-03-15T12:29:39-04:00</lastmod>
   </url>
@@ -25,6 +20,11 @@
   <url>
     <loc>/services/</loc>
     <lastmod>2021-03-06T10:46:27-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tools/</loc>
+    <lastmod>2021-03-15T12:29:39-04:00</lastmod>
   </url>
   
 </urlset>
