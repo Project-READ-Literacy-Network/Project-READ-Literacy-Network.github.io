@@ -3,8 +3,98 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/programs-and-services/directory-of-programs-and-services/literacy-and-upgrading/</loc>
+    <lastmod>2021-04-27T10:53:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/programs-and-services/directory-of-programs-and-services/employment-training-information/</loc>
+    <lastmod>2021-04-27T10:53:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/programs-and-services/directory-of-programs-and-services/family-literacy-reading-and-support-services/</loc>
+    <lastmod>2021-04-27T10:53:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/programs-and-services/directory-of-programs-and-services/libraries/</loc>
+    <lastmod>2021-04-27T10:53:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/programs-and-services/directory-of-programs-and-services/esl/</loc>
+    <lastmod>2021-04-27T10:53:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/programs-and-services/directory-of-programs-and-services/online-learning/</loc>
+    <lastmod>2021-04-27T10:53:05-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/thankyou/</loc>
     <lastmod>2021-03-15T12:29:39-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/programs-and-services/directory-of-programs-and-services/</loc>
+    <lastmod>2021-04-27T10:53:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/about/events-and-awards/</loc>
+    <lastmod>2021-04-27T10:53:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/about/get-involved/</loc>
+    <lastmod>2021-04-27T10:53:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/about/history-and-purpose/</loc>
+    <lastmod>2021-04-27T10:53:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/programs-and-services/literacy-service-planning/</loc>
+    <lastmod>2021-04-27T10:53:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tools-and-resources/newsletters-and-reports/</loc>
+    <lastmod>2021-04-27T10:53:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/about/funders-sponsors-and-affiliations/</loc>
+    <lastmod>2021-04-27T10:53:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tools-and-resources/practitioner-resources/</loc>
+    <lastmod>2021-04-27T10:53:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tools-and-resources/practitioner-training-and-development/</loc>
+    <lastmod>2021-04-27T10:53:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/programs-and-services/programs-for-adults/</loc>
+    <lastmod>2021-04-27T10:53:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/programs-and-services/programs-for-families/</loc>
+    <lastmod>2021-04-27T10:53:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/programs-and-services/services-for-employers/</loc>
+    <lastmod>2021-04-27T10:53:05-04:00</lastmod>
   </url>
   
   <url>
@@ -14,7 +104,21 @@
   
   <url>
     <loc>/about/</loc>
-    <lastmod>2021-03-15T12:29:39-04:00</lastmod>
+    <lastmod>2021-04-27T10:53:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/old-about/</loc>
+    <lastmod>2021-04-27T10:53:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>/programs-and-services/</loc>
+    <lastmod>2021-04-27T10:53:05-04:00</lastmod>
   </url>
   
   <url>
@@ -23,8 +127,12 @@
   </url>
   
   <url>
-    <loc>/tools/</loc>
-    <lastmod>2021-03-15T12:29:39-04:00</lastmod>
+    <loc>/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>/tools-and-resources/</loc>
+    <lastmod>2021-04-27T10:53:05-04:00</lastmod>
   </url>
   
 </urlset>
