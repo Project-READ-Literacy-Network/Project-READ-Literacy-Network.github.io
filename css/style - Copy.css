@@ -1,83 +1,3 @@
-
-#gform .checkbox * {
-cursor: pointer;
-}
-#gform .checkbox {
-padding-left: 20px;
-}
-#gform .checkbox label {
-display: inline-block;
-vertical-align: middle;
-position: relative;
-padding-left: 5px;
-}
-#gform .checkbox label::before {
-content: '';
-display: inline-block;
-position: absolute;
-width: 20px;
-height: 20px;
-left: 0;
-margin-left: -20px;
-border: 1px solid #ced4da;
-border-radius: 3px;
-background-color: #fff;
--webkit-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
--o-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
-}
-#gform .checkbox label::after {
-display: inline-block;
-position: absolute;
-width: 20px;
-height: 20px;
-left: 0;
-top: 2px;
-margin-left: -21px;
-padding-left: 3px;
-padding-top: 1px;
-font-size: 11px;
-color: #29ABE2;
-}
-#gform .checkbox input[type="checkbox"]{
-opacity: 0;
-z-index: 1;
-}
-#gform .checkbox input[type="checkbox"]:checked + label::after{
-text-align: center;
-content: '\2713';
-font-weight: 900;
-}
-#gform .checkbox.checkbox-circle label::before {
-border-radius: 10%;
-}
-#gform .checkbox.checkbox-inline {
-margin-top: 0;
-}
-#gform p.label {
-    font-weight: 600;
-    margin-bottom: 1rem;
-    line-height: 1.75rem;
-}
-
-.gsl-form-info p{
-    font-size: 1rem;
-    line-height: 1.25rem;
-}
-
-#gsl-sign-up .subtitle h5 {
-    font-size: 1.4rem;
-}
-
-.overlay .navbar .breadcrumb-container .navbar-expand-lg .pt-2 .bg-light .navbar-light  {
-    background-color: transparent;
-   
-}
-
-.overlay-top {
-    position: absolute;
-     z-index: 5000;
-}
 a {
 
   /* These are technically the same, but use both */
@@ -101,7 +21,15 @@ a {
     font-weight: 600;
     color: #0E83CD;
 }
-
+#get-set-learn-grandparents img {
+        display: none;
+}
+#get-set-learn img {
+        display: none;
+    }
+    #get-set-learn-afterschool img {
+        display: none;
+    }
 .special-details details summary {
     padding: 0;
     margin: 0;
@@ -123,7 +51,8 @@ a {
     border-bottom: 3px solid #0E83CD;
     width: 80%;
     left: 0;
-    bottom: -.6rem;
+    right:0;
+    bottom: -1rem;
     margin: auto;
     display: block;
     position: absolute;
@@ -226,43 +155,48 @@ h4#talk-to-your-child-about-sex  {
     background: linear-gradient(to right, rgba(255,255,255,.5), rgba(255,255,255,0));
 }
 
-
+input {
+    color: #ced4da !important;
+}
+input[type="checkbox"] {
+    border-radius: 50% !important;
+    color: #ced4da !important;
+}
+input[type="checkbox" i] {
+    border-radius: .25rem !important;
+    border: 1px solid #ced4da !important;
+    color: #ced4da !important;
+}
 .bg-danger i.text-primary {
     color:  !important;
 }
-
-.bg-info h4 a {
-    color: black !important;
-    padding-left: .5rem;
-    margin-left: -.5rem;
+.big-checkbox {
+    width: 2rem;
+    height: 2.25rem;
+    margin-right: .5rem;
+color: #ced4da !important;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-radius: .25rem !important;
+     vertical-align: middle;
+     border: 1px solid #ced4da !important;
 }
-.bg-info h4 a:hover {
-    color: black !important;
-    background: linear-gradient(to right, rgba(255,255,255,.5), rgba(255,255,255,0));
-}
-
-.bg-danger h1 a {
-    color: white !important;
-    padding-left: .5rem;
-    margin-left: -.5rem;
-}
-.bg-danger h1 a:hover {
-    color: black !important;
-    background: linear-gradient(to right, rgba(255,255,255,.5), rgba(255,255,255,0));
-}
-.special-details details summary h5{
-    margin-top: .25rem;
-    margin-bottom: 1.50rem;
-    text-align: center;
-}
-.special-details details summary h1{
-    margin-bottom: 1.50rem;
+.form-check-label {
+  display: inline-block;
+    font-size: 1.25rem;
+    height: 100%;
+    vertical-align: middle;
 }
 
-.bg-light .special-details details summary:hover {
-    color: #0E83CD;
+.form-check {
+    padding-left: 0;
 }
-
+.form-check-label {
+    margin-bottom: 0;
+    padding-top: .25rem;
+}
 .portfolio-item.has-background .portfolio-icon {
     position: absolute;
     top: 30%;
@@ -283,20 +217,6 @@ h4#talk-to-your-child-about-sex  {
 section#contact .py-5 {
     padding-bottom: 2rem !important;
 }
-.content-body p:only-of-type {
-    margin-bottom: 0 !important;
-}
-.item-custom h1 {
-    text-align: center;
-}
-
-.item-custom h1 a{
-    color: black;
-}
-.item-custom h1 a:hover {
-    color: #0E83CD;
-}
-
 .modal {
     background-color: rgba(0,0,0,0.7);
 }
@@ -1080,12 +1000,6 @@ summary h2:last-of-type{
     width: 0;
 }
 
-.special-details ul{
-    text-align: left !important;
-}
-.special-details h1{
-    text-align: center !important;
-}
 @media (min-width: 576px){    
 
     p {
@@ -1105,19 +1019,13 @@ summary h2:last-of-type{
     font-size: 1.6rem;
     margin-bottom: 1.6rem;
     margin-top: 1.6rem;
+    
     }
-    .item-custom h1 {
-    text-align: left;
-    }
-    h5 {
-    font-size: 1.5rem;
+    .special-details h5 {
+    font-size: 1.4rem;
     line-height: 1.75rem;
     }
-    .item-custom ul {
-    font-size: 1.4rem;
-    line-height: 2.25rem;
-    margin-bottom: 1.25rem;
-    }    
+        
 
     .content-body li::before {
     left: -1.5rem;
@@ -1137,7 +1045,6 @@ summary h2:last-of-type{
     line-height: 1.75rem;
     margin-bottom: .5rem;
     }
-    
 }
 
 
@@ -1160,9 +1067,6 @@ summary h2:last-of-type{
     .special-details p {
     line-height: 1.75rem;
     }
-    .special-details h1{
-    text-align: left !important;
-    }
     .special-details h4 {
     line-height: 1.75rem;
     }
@@ -1178,10 +1082,7 @@ summary h2:last-of-type{
     margin: 0;
     display: block;
     position: absolute;
-    }
-    .special-details details summary h5{
-    text-align: left;
-    }
+}
     #get-set-learn-grandparents img {
         display: block;
     }
@@ -1193,7 +1094,7 @@ summary h2:last-of-type{
     }
     .sticky-top {
     top: 130px;
-    }
+}
     .dropie ul > ul > li a {
     color: black;
     margin-bottom: .75rem;
@@ -1201,7 +1102,7 @@ summary h2:last-of-type{
     
     .dropie ul > ul > li a:hover {
      color: #0E83CD;
-    }
+}
     .dropie > summary {
     font-size: 1rem;
     }
@@ -1211,7 +1112,7 @@ summary h2:last-of-type{
     display: block;
     height: 130px;
     margin: -130px 0 0;
-    }
+}
     
     #nav.navbar{
     height: 130px;
@@ -1219,12 +1120,12 @@ summary h2:last-of-type{
 
     .content-sidebar h5 a {
     font-size: 1.25rem;
-    }
+}
     .content-body p {
     font-size: 1.5rem;
     line-height: 2.25rem;
     margin-bottom: 2rem;
-    }
+}
 
     
     .content-body ul li {
