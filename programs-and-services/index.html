@@ -396,12 +396,14 @@ html {
 <body class="bg-light">
     <!-- Navigation --><nav class="overlay fragment navbar navbar-expand-lg py-3 scroll-spy bg-light navbar-light" id="nav" role="navigation" style='position: sticky; top: 0; z-index: 10000 !important;'>
   <div class="container-fluid">
-      <a class="navbar-brand pt-0 pb-2 pl-lg-3 pr-lg-2" href="/#">
+      <a class="navbar-brand pt-0 pb-2 pl-3 pr-lg-2" href="/#">
         <img src="/images/prln-logo.svg" height="80px" class="d-inline-block align-top" alt="Project READ">
       </a>
+      <div class="pr-3">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+          </div>
     <div class="navbar-collapse justify-content-between collapse show" id="navbarCollapse">
         <ul class="my-nav">
 		<li>
@@ -490,7 +492,7 @@ html {
                                 <ul>
                                     <li><a href="/programs-and-services/services-for-employers/clear-language">Clear Language</a></li>
                                     <li><a href="/programs-and-services/services-for-employers/workplace-literacy">Workplace Literacy</a></li>
-                                    <li><a href="/programs-and-services/services-for-employers/bridges-out-of-poverty">Bridges out of Poverty</a></li>
+                                    <li><a href="/programs-and-services/services-for-employers/bridges-out-of-poverty">Bridges Out of Poverty</a></li>
                                     <li><a href="/programs-and-services/services-for-employers/sign-up">Sign-Up</a></li>
                                 </ul>
                             </ul>
@@ -545,6 +547,7 @@ html {
                                     <li><a href="/tools-and-resources/newsletters-and-reports/#prln-newsletters">PRLN Newsletters</a></li>
                                     <li><a href="/tools-and-resources/newsletters-and-reports/#literacy-service-plan-reports">Literacy Service Plan Reports</a></li>
                                     <li><a href="/tools-and-resources/newsletters-and-reports/#annual-reports">Annual Reports</a></li>
+                                    <li><a href="/tools-and-resources/newsletters-and-reports/news">Press Releases</a></li>
                                 </ul>
                             
 				</ul>
@@ -582,8 +585,8 @@ html {
         
     </div>
     <div class="d-none d-lg-block pl-auto mx-3 mx-xl-5">
-      <a class="btn btn-outline-dark ignore-color-change" href="https://www.canadahelps.org/en/dn/11623" role="button" title="Donate">
-        <i class="fas fa-heart mr-2"display: inline-flex; align-items: center;></i>
+      <a class="btn btn-light ignore-color-change" href="https://www.canadahelps.org/en/dn/11623" role="button" title="Donate on our CanadaHelps.org page">
+        <i class="fas fa-heart mr-2 text-dark"display: inline-flex; align-items: center;></i>
         Donate
       </a>
     </div>
@@ -616,53 +619,6 @@ html {
           </div>
       <article class="col-md-12 pl-0"><div class="content-body col-12 content text-white"></div>
     </article>
-  </div>
-    </div>
-    </div>
-</section>
-
-<!-- List -->
-<section id="list" class="fragment ">
-    <div class="container-fluid bg-light ">
-    <div class="container py-5 ">
-
-
-  <div class="row mx-0 text-body"><div class="col-lg-6 col-12 mb-4 d-flex"><article
-          class="card w-100">
-            <div class="card-body">
-                <div class="card-title">
-                <div class="col-12 pl-0 pb-1 text-body">
-                  <div
-                    class="row align-items-center justify-content-between mx-0 article-title">
-                      <h4 class="col px-0 m-0">
-                        <a href="/programs-and-services/programs-for-adults/">Programs for Adults</a>
-                      </h4>
-                  </div>
-                </div>
-                </div>
-                <div class="col-12 pl-0 mt-2 text-body">
-                    We believe that literacy and Essential Skills are necessary to function independently to reach an individual’s full potential. Low literacy affects many aspects of life including health, income, employment, parenting, education or training and daily living.</div>
-            </div>
-        </article>
-        </div><div class="col-lg-6 col-12 mb-4 d-flex"><article
-          class="card w-100">
-            <div class="card-body">
-                <div class="card-title">
-                <div class="col-12 pl-0 pb-1 text-body">
-                  <div
-                    class="row align-items-center justify-content-between mx-0 article-title">
-                      <h4 class="col px-0 m-0">
-                        <a href="/programs-and-services/literacy-service-planning/">Literacy Service Planning</a>
-                      </h4>
-                  </div>
-                </div>
-                </div>
-                <div class="col-12 pl-0 mt-2 text-body">
-                    The Literacy Service Plan is created annually by Project READ and the Literacy Service Planning Committee through Service Coordination and System Planning. Each Adult Literacy and Basic Skills (LBS) program in Waterloo-Wellington is represented on the committee. We work in collaboration to develop a Literacy Service Plan to meet the literacy needs of our community.
-For more information on the the Local Literacy Programs that we work with, please see The Directory of Programs.</div>
-            </div>
-        </article>
-        </div>
   </div>
     </div>
     </div>
@@ -754,7 +710,6 @@ For more information on the the Local Literacy Programs that we work with, pleas
     <!-- Theme Code -->
       <script async defer src="/scripts/syna-main.min.065c23d84ca56793a8ee2be9d091a50028dc3505b5e4962af6444d641ed77ff5.js"></script>
       <script async defer src="/scripts/syna-content.min.3f176160ef27cbeeb1c26d718677d4e66e40b70421d8745f6d667dcad23a6850.js"></script>
-      <script async defer src="/scripts/syna-collapse.min.e53f62e26af14c1839865c3eb2f19520509399d957f5520e410b1f11ffee93c1.js"></script>
       <link rel='stylesheet' href='/css/style.css'>
       
   <script>
@@ -772,6 +727,18 @@ nav.addEventListener('toggle', function (event) {
 	});
 
 }, true);
+</script>
+  
+      
+  <script>
+var all_links = document.querySelectorAll('a');
+for (var i = 0; i < all_links.length; i++){
+       var a = all_links[i];
+       if(a.hostname != location.hostname) {
+               a.rel = 'noopener';
+               a.target = '_blank';
+       }
+}
 </script>
   
   </body>
