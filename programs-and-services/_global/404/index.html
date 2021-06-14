@@ -408,56 +408,56 @@ html {
     <div class="navbar-collapse justify-content-between collapse show" id="navbarCollapse">
         <ul class="my-nav">
 		<li>
-			<details class="dropie">
+			<details class="dropie" id="aboutDetails">
 				<summary>About Us</summary>
 				<ul>
                     <li class="col-lg-4 pb-xl-0">
                         <ul>
-                            <li class="my-dropie-header"><a href="/about/about-us/#why-project-read-matters">About Us</a></li>
+                            <li class="my-dropie-header"><a onclick="closeAboutDetails()" href="/about/about-us/#why-project-read-matters">About Us</a></li>
                                 <ul>
-                                    <li><a href="/about/about-us/#our-mission">Our Mission</a></li>
-                                    <li><a href="/about/about-us/#our-vision">Our Vision</a></li>
-                                    <li><a href="/about/about-us/our-values">Our Values</a></li>
-                                    <li><a href="/about/about-us/#what-is-literacy">Literacy Definitions</a></li>
-                                    <li><a href="/about/about-us/facts">Literacy Facts &amp; Statistics</a></li>
+                                    <li><a onclick="closeAboutDetails()" href="/about/about-us/#our-mission">Our Mission</a></li>
+                                    <li><a onclick="closeAboutDetails()" href="/about/about-us/#our-vision">Our Vision</a></li>
+                                    <li><a onclick="closeAboutDetails()" href="/about/about-us/our-values">Our Values</a></li>
+                                    <li><a onclick="closeAboutDetails()" href="/about/about-us/#what-is-literacy">Literacy Definitions</a></li>
+                                    <li><a onclick="closeAboutDetails()" href="/about/about-us/facts">Literacy Facts &amp; Statistics</a></li>
                                 </ul>
                         </ul>
                     </li>
                     <li class="col-lg-4 pb-xl-0">
                         <ul>
-                            <li class="my-dropie-header"><a href="/about/funders-sponsors-and-affiliations">Our Funders, Sponsors &amp; Affiliations</a></li>
+                            <li class="my-dropie-header"><a onclick="closeAboutDetails()" href="/about/funders-sponsors-and-affiliations">Our Funders, Sponsors &amp; Affiliations</a></li>
                             <ul>
-                                    <li><a href="/about/funders-sponsors-and-affiliations/#funders">Funders</a></li>
-                                    <li><a href="/about/funders-sponsors-and-affiliations/#sponsors-supporters">Sponsors/Supporters</a></li>
-                                <li><a href="/about/funders-sponsors-and-affiliations/#affiliations">Affiliations</a></li>
+                                    <li><a onclick="closeAboutDetails()" href="/about/funders-sponsors-and-affiliations/#funders">Funders</a></li>
+                                    <li><a onclick="closeAboutDetails()" href="/about/funders-sponsors-and-affiliations/#sponsors-supporters">Sponsors/Supporters</a></li>
+                                    <li><a onclick="closeAboutDetails()" href="/about/funders-sponsors-and-affiliations/#affiliations">Affiliations</a></li>
                                 </ul>
                         </ul>
                     </li>
                     <li class="col-lg-4 pb-xl-0">
                         <ul>
-                            <li class="my-dropie-header"><a href="/about/get-involved">Get Involved</a></li>
+                            <li class="my-dropie-header"><a onclick="closeAboutDetails()" href="/about/get-involved">Get Involved</a></li>
                             <ul>
-                                <li><a href="/about/get-involved/#board-of-directors">Our Board of Directors</a></li>
-                                <li><a href="/about/get-involved/#staff">Our Staff</a></li>
-                                <li><a href="/about/get-involved/#opportunities">Fundraising, Co-op and Placement Opportunities</a></li>
-                                <li><a href="http://www.canadahelps.org/CharityProfilePage.aspx?CharityID=d42371">Donate</a></li>
+                                <li><a onclick="closeAboutDetails()" href="/about/get-involved/#board-of-directors">Our Board of Directors</a></li>
+                                <li><a onclick="closeAboutDetails()" href="/about/get-involved/#staff">Our Staff</a></li>
+                                <li><a onclick="closeAboutDetails()" href="/about/get-involved/#opportunities">Fundraising, Co-op and Placement Opportunities</a></li>
+                                <li><a onclick="closeAboutDetails()" href="http://www.canadahelps.org/CharityProfilePage.aspx?CharityID=d42371">Donate</a></li>
                                 </ul>
                         </ul>
                     </li>
                     <li class="col-lg-4 pb-xl-0">
                         <ul>
-                            <li class="my-dropie-header"><a href="/about/events-and-awards">Events and Awards</a></li>
+                            <li class="my-dropie-header"><a onclick="closeAboutDetails()" href="/about/events-and-awards">Events and Awards</a></li>
                             <ul>
-                                    <li><a href="/about/events-and-awards/#prln-events">Project READ Events</a></li>
-                                    <li><a href="/about/events-and-awards/#community-partnership-events">Community Partnership Events</a></li>
-                                    <li><a href="/about/events-and-awards/#awards">Awards</a></li>
-                                    <li><a href="/about/events-and-awards/#apply-for-an-award">Apply for an Award</a></li>
+                                    <li><a onclick="closeAboutDetails()" href="/about/events-and-awards/#prln-events">Project READ Events</a></li>
+                                    <li><a onclick="closeAboutDetails()" href="/about/events-and-awards/#community-partnership-events">Community Partnership Events</a></li>
+                                    <li><a onclick="closeAboutDetails()" href="/about/events-and-awards/#awards">Awards</a></li>
+                                    <li><a onclick="closeAboutDetails()" href="/about/events-and-awards/#apply-for-an-award">Apply for an Award</a></li>
                             </ul>
                         </ul>
                     </li>
                     <li class="col-lg-4 pb-xl-0 ">
                         <ul>
-                            <li class="my-dropie-header"><a href="/about/contact">Contact</a></li>
+                            <li class="my-dropie-header"><a onclick="closeAboutDetails()" href="/about/contact">Contact</a></li>
                             
                         </ul>
                     </li>
@@ -465,51 +465,51 @@ html {
 			</details>
 		</li>
 		<li>
-			<details class="dropie">
+			<details class="dropie" id="pSDetails">
 				<summary>Programs &amp; Services</summary>
 				<ul>
                     <li class="col-lg-4 pb-xl-0">
                         <ul>
-                            <li class="my-dropie-header"><a href="/programs-and-services/programs-for-families">Programs for Families</a></li>
+                            <li class="my-dropie-header"><a onclick="closepSDetails()" href="/programs-and-services/programs-for-families">Programs for Families</a></li>
                                 <ul>
-                                    <li><a href="/programs-and-services/programs-for-families/#get-set-learn">Get Set Learn</a></li>
-                                    <li><a href="/programs-and-services/programs-for-families/programs">Programs</a></li>
-                                    <li><a href="/programs-and-services/programs-for-families/workshops">Workshops</a></li>
-                                    <li><a href="/programs-and-services/programs-for-families/#tips-and-ideas">Tips & Ideas</a></li>
-                                    <li><a href="/programs-and-services/programs-for-families/sign-up/">Sign-Up</a></li>
+                                    <li><a onclick="closepSDetails()" href="/programs-and-services/programs-for-families/#get-set-learn">Get Set Learn</a></li>
+                                    <li><a onclick="closepSDetails()" href="/programs-and-services/programs-for-families/programs">Programs</a></li>
+                                    <li><a onclick="closepSDetails()" href="/programs-and-services/programs-for-families/workshops">Workshops</a></li>
+                                    <li><a onclick="closepSDetails()" href="/programs-and-services/programs-for-families/#tips-and-ideas">Tips & Ideas</a></li>
+                                    <li><a onclick="closepSDetails()" href="/programs-and-services/programs-for-families/sign-up/">Sign-Up</a></li>
                                 </ul>
                             </ul>
                     </li>
                     <li class="col-lg-4 pb-xl-0">
                         <ul>
-                            <li class="my-dropie-header"><a href="/programs-and-services/programs-for-adults">Programs for Adults</a></li>
+                            <li class="my-dropie-header"><a onclick="closepSDetails()" href="/programs-and-services/programs-for-adults">Programs for Adults</a></li>
                                 <ul>
-                                    <li><a href="/programs-and-services/programs-for-adults/#assessments-and-referrals-educational-assessments">Educational Assessments by PRLN</a></li>
-                                    <li><a href="/programs-and-services/programs-for-adults/#assessments-and-referrals-adult-literacy">Literacy Programs of Waterloo and Wellington Region</a></li>
+                                    <li><a onclick="closepSDetails()" href="/programs-and-services/programs-for-adults/#assessments-and-referrals-educational-assessments">Educational Assessments by PRLN</a></li>
+                                    <li><a onclick="closepSDetails()" href="/programs-and-services/programs-for-adults/#assessments-and-referrals-adult-literacy">Literacy Programs of Waterloo and Wellington Region</a></li>
                                 </ul>
                             </ul>
                     </li>
                     <li class="col-lg-4 pb-xl-0">
                         <ul>
-                            <li class="my-dropie-header"><a href="/programs-and-services/services-for-employers">Services for Employers</a></li>
+                            <li class="my-dropie-header"><a onclick="closepSDetails()" href="/programs-and-services/services-for-employers">Services for Employers</a></li>
                                 <ul>
-                                    <li><a href="/programs-and-services/services-for-employers/clear-language">Clear Language</a></li>
-                                    <li><a href="/programs-and-services/services-for-employers/workplace-literacy">Workplace Literacy</a></li>
-                                    <li><a href="/programs-and-services/services-for-employers/bridges-out-of-poverty">Bridges Out of Poverty</a></li>
+                                    <li><a onclick="closepSDetails()" href="/programs-and-services/services-for-employers/clear-language">Clear Language</a></li>
+                                    <li><a onclick="closepSDetails()" href="/programs-and-services/services-for-employers/workplace-literacy">Workplace Literacy</a></li>
+                                    <li><a onclick="closepSDetails()" href="/programs-and-services/services-for-employers/bridges-out-of-poverty">Bridges Out of Poverty</a></li>
                                  </ul>
                             </ul>
                     </li>
                     <li class="col-lg-4 pb-xl-0">
                         <ul>
-                            <li class="my-dropie-header"><a href="/programs-and-services/directory-of-programs">Directory of Programs &amp; Services</a></li>
+                            <li class="my-dropie-header"><a onclick="closepSDetails()" href="/programs-and-services/directory-of-programs">Directory of Programs &amp; Services</a></li>
                         </ul>
                     </li>
                     <li class="col-lg-4 pb-xl-0">
                         <ul>
-                            <li class="my-dropie-header"><a href="/programs-and-services/literacy-service-planning">Literacy Service Planning</a></li>
+                            <li class="my-dropie-header"><a onclick="closepSDetails()" href="/programs-and-services/literacy-service-planning">Literacy Service Planning</a></li>
                                 <ul>
-                                    <li><a href="/programs-and-services/literacy-service-planning/#about">About</a></li>
-                                    <li><a href="/tools-and-resources/newsletters-and-reports/#literacy-service-plan-reports">Reports</a></li>
+                                    <li><a onclick="closepSDetails()" href="/programs-and-services/literacy-service-planning/#about">About</a></li>
+                                    <li><a onclick="closepSDetails()" href="/tools-and-resources/newsletters-and-reports/#literacy-service-plan-reports">Reports</a></li>
                                 </ul>
                             </ul>
                     </li>
@@ -517,39 +517,39 @@ html {
 			</details>
 		</li>
         <li>
-			<details class="dropie">
+			<details class="dropie" id="tRDetails">
 				<summary>Tools &amp; Resources</summary>
 				<ul>
                     <li class="col-lg-4 pb-xl-0">
                         <ul>
-                        <li class="my-dropie-header"><a href="/tools-and-resources/practitioner-resources">Practitioner Resources</a></li>
+                        <li class="my-dropie-header"><a onclick="closetRDetails()" href="/tools-and-resources/practitioner-resources">Practitioner Resources</a></li>
                             <ul>
-                                <li><a href="/tools-and-resources/practitioner-resources/publications">Publications</a></li>
+                                <li><a onclick="closetRDetails()" href="/tools-and-resources/practitioner-resources/publications">Publications</a></li>
                                 
-                                <li><a href="/tools-and-resources/practitioner-resources/additional-adult-literacy-resources">Additional Adult Literacy Resources</a></li>
+                                <li><a onclick="closetRDetails()" href="/tools-and-resources/practitioner-resources/additional-adult-literacy-resources">Additional Adult Literacy Resources</a></li>
                             </ul>
 
                         </ul>
                     </li>
                     <li class="col-lg-4 pb-xl-0">
                         <ul>
-                            <li class="my-dropie-header"><a href="/tools-and-resources/practitioner-training-and-development">Practitioner Training &amp; Development</a></li>
+                            <li class="my-dropie-header"><a onclick="closetRDetails()" href="/tools-and-resources/practitioner-training-and-development">Practitioner Training &amp; Development</a></li>
                                 <ul>
-                                    <li><a href="/tools-and-resources/practitioner-training-and-development/gsl-family-literacy">GSL Family Literacy</a></li>
-                                    <li><a href="/tools-and-resources/practitioner-training-and-development/bridges-out-of-poverty">Bridges Out of Poverty</a></li>
-                                    <li><a href="/tools-and-resources/practitioner-training-and-development/sss">Soft Skills Solutions</a></li>
+                                    <li><a onclick="closetRDetails()" href="/tools-and-resources/practitioner-training-and-development/gsl-family-literacy">GSL Family Literacy</a></li>
+                                    <li><a onclick="closetRDetails()" href="/tools-and-resources/practitioner-training-and-development/bridges-out-of-poverty">Bridges Out of Poverty</a></li>
+                                    <li><a onclick="closetRDetails()" href="/tools-and-resources/practitioner-training-and-development/sss">Soft Skills Solutions</a></li>
                                     
                                 </ul>
                         </ul>
                     </li>
                     <li class="col-lg-4 pb-xl-0">
                         <ul>
-                        <li class="my-dropie-header"><a href="/tools-and-resources/newsletters-and-reports">Newsletters &amp; Reports</a></li>
+                        <li class="my-dropie-header"><a onclick="closetRDetails()" href="/tools-and-resources/newsletters-and-reports">Newsletters &amp; Reports</a></li>
                             <ul>
-                                    <li><a href="/tools-and-resources/newsletters-and-reports/#prln-newsletters">PRLN Newsletters</a></li>
-                                    <li><a href="/tools-and-resources/newsletters-and-reports/#literacy-service-plan-reports">Literacy Service Plan Reports</a></li>
-                                    <li><a href="/tools-and-resources/newsletters-and-reports/#annual-reports">Annual Reports</a></li>
-                                    <li><a href="/tools-and-resources/newsletters-and-reports/news">Press Releases</a></li>
+                                    <li><a onclick="closetRDetails()" href="/tools-and-resources/newsletters-and-reports/#prln-newsletters">PRLN Newsletters</a></li>
+                                    <li><a onclick="closetRDetails()" href="/tools-and-resources/newsletters-and-reports/#literacy-service-plan-reports">Literacy Service Plan Reports</a></li>
+                                    <li><a onclick="closetRDetails()" href="/tools-and-resources/newsletters-and-reports/#annual-reports">Annual Reports</a></li>
+                                    <li><a onclick="closetRDetails()" href="/tools-and-resources/newsletters-and-reports/news">Press Releases</a></li>
                                 </ul>
                             
 				</ul>
@@ -709,6 +709,27 @@ nav.addEventListener('toggle', function (event) {
 	});
 
 }, true);
+</script>
+  
+      
+<script>
+function closeAboutDetails() {
+  document.getElementById("aboutDetails").open = false;
+}
+</script>
+  
+      
+<script>
+function closepSDetails() {
+  document.getElementById("pSDetails").open = false;
+}
+</script>
+  
+      
+<script>
+function closetRDetails() {
+  document.getElementById("tRDetails").open = false;
+}
 </script>
   
       
