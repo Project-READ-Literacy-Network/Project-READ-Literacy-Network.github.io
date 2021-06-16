@@ -73,11 +73,6 @@
   </url>
   
   <url>
-    <loc>/thankyou/</loc>
-    <lastmod>2021-03-15T12:29:39-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/programs-and-services/programs-for-families/tips-and-ideas/activities-and-games/</loc>
     <lastmod>2021-05-04T12:10:51-04:00</lastmod>
   </url>
@@ -128,13 +123,18 @@
   </url>
   
   <url>
-    <loc>/search/</loc>
-    <lastmod>2021-05-04T12:10:51-04:00</lastmod>
+    <loc>/programs-and-services/programs-for-families/sign-up/</loc>
+    <lastmod>2021-05-19T15:15:48-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/programs-and-services/programs-for-families/sign-up/</loc>
-    <lastmod>2021-05-19T15:15:48-04:00</lastmod>
+    <loc>/thank-you/gsl-sign-up-msg/</loc>
+    <lastmod>2021-06-16T12:07:55-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/thank-you/opportunities-msg/</loc>
+    <lastmod>2021-06-16T12:07:55-04:00</lastmod>
   </url>
   
   <url>
@@ -268,6 +268,11 @@
   
   <url>
     <loc>/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>/thank-you/</loc>
+    <lastmod>2021-06-16T12:07:55-04:00</lastmod>
   </url>
   
   <url>
