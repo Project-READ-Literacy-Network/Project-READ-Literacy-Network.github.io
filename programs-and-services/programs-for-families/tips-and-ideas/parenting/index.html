@@ -588,7 +588,7 @@ html {
 </div>
 <style>
   :root {
-    --header-height: 110px;
+    --header-height: 130px;
   }
 </style>
 
@@ -809,7 +809,7 @@ html {
     </div>
     <div class="col-md m-2 text-body">
         <div class="mission-text"><h4 id="our-mission">Our Mission</h4>
-<p>We are committed to providing any adult or family in Waterloo-Wellington with access to literacy training.</p>
+<p>Our mission is to provide any adult or family in Waterloo-Wellington with access to literacy training.</p>
 </div>
     </div>
   </div>
@@ -886,6 +886,19 @@ for (var i = 0; i < all_links.length; i++){
                a.target = '_blank';
        }
 }
+</script>
+  
+      
+  <script>
+  document.getElementById("findOutOtherText").addEventListener("click", function(){ document.getElementById("findOutOther").click();
+  });
+</script>
+  
+      
+  <script>
+    document.getElementById("findOutOtherText").addEventListener('change', function(){
+    document.getElementById("findOutOther").required = this.checked ;
+})
 </script>
   
   </body>
