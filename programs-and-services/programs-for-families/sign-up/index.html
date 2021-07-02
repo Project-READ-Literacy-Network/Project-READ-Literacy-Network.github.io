@@ -441,7 +441,7 @@ html {
                             <ul>
                                 <li class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><a onclick="closeAboutDetails()" href="/about/get-involved/#board-of-directors">Our Board of Directors</a></li>
                                 <li class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><a onclick="closeAboutDetails()" href="/about/get-involved/#staff">Our Staff</a></li>
-                                <li class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><a onclick="closeAboutDetails()" href="/about/get-involved/#opportunities">Fundraising, Co-op &amp; Placement Opportunities</a></li>
+                                <li class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><a onclick="closeAboutDetails()" href="/about/get-involved/#opportunities">Volunteering &amp; Co-op  Placements</a></li>
                                 <li class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><a onclick="closeAboutDetails()" href="http://www.canadahelps.org/CharityProfilePage.aspx?CharityID=d42371">Donate</a></li>
                                 </ul>
                         </ul>
@@ -638,7 +638,8 @@ onload="if(submitted) {window.location='/thank-you/gsl-sign-up-msg';}"></iframe>
           method="post"
           target="hidden_iframe"
           onsubmit="submitted=true"
-          class="contact position-relative">
+          class="contact position-relative"
+          name="gsl-sign-up">
 
 <div class="row pt-5">
 
@@ -726,7 +727,7 @@ onload="if(submitted) {window.location='/thank-you/gsl-sign-up-msg';}"></iframe>
 <div class="mb-3 text-left">
 
 <input type="radio" value="other" id="findOutOther" name="entry.1243974042">
-<input type="text" placeholder="other" name="entry.1759722061" class="form-control prln-form-inline" id="findOutOtherText">
+<input type="text" placeholder="other" name="entry.1759722061" class="form-control prln-form-inline" id="findOutOtherText" onClick='gslFOO()'>
     
 </div>
 
@@ -892,6 +893,26 @@ function closepSDetails() {
 function closetRDetails() {
   document.getElementById("tRDetails").open = false;
 }
+</script>
+  
+      
+<script>
+function gslFOO() {
+  document.getElementById("findOutOther").checked = true;
+}
+</script>
+  
+      
+  <script>
+var nav = document.querySelector('.prln-nav');
+    window.addEventListener("click", () => {
+    if (window.innerWidth>999){
+	var prlnDDs = nav.querySelectorAll('.prlnDD[open]');
+	Array.prototype.forEach.call(prlnDDs, function (prlnDD) {
+		prlnDD.removeAttribute('open');
+	});
+    }
+}, true);
 </script>
   
       
