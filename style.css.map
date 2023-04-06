@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "style.css",
-	"sourceRoot": "C:/Users/chelsea/hugo-sites/prln-website",
+	"sourceRoot": "C:/Users/chelsea/Documents/GitHub/prln-website",
 	"sources": [
 		"themes/syna/assets/styles/index.scss",
 		"themes/syna/assets/styles/fontawesome/fontawesome.scss",
